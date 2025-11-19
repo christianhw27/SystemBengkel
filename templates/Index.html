@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expert System Motor</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</head>
+<body>
+    <h1>Expert System Kerusakan Sepeda Motor</h1>
+    <p style="text-align:center;">
+        Pilih gejala yang sesuai, lalu klik <strong>Konsultasi</strong>.
+    </p>
+
+    <div class="card">
+        <form action="/diagnose" method="post" id="diagnosaForm">
+            <h2>Daftar Gejala</h2>
+            <div class="gejala-grid">
+                <div>
+                    <label><input type="checkbox" name="gejala[]" value="G1"> G1: Mesin susah hidup (pagi)</label>
+                    <label><input type="checkbox" name="gejala[]" value="G2"> G2: Mesin susah hidup (panas)</label>
+                    <label><input type="checkbox" name="gejala[]" value="G3"> G3: Starter mati, kick bisa</label>
+                    <label><input type="checkbox" name="gejala[]" value="G4"> G4: Starter & kick mati</label>
+                    <label><input type="checkbox" name="gejala[]" value="G5"> G5: Lampu & klakson redup</label>
+                    <label><input type="checkbox" name="gejala[]" value="G6"> G6: Motor ngempos digas</label>
+                </div>
+                <div>
+                    <label><input type="checkbox" name="gejala[]" value="G7"> G7: Brebet rpm rendah</label>
+                    <label><input type="checkbox" name="gejala[]" value="G8"> G8: Brebet rpm tinggi</label>
+                    <label><input type="checkbox" name="gejala[]" value="G9"> G9: Tarikan awal berat</label>
+                    <label><input type="checkbox" name="gejala[]" value="G10"> G10: Asap putih pekat</label>
+                    <label><input type="checkbox" name="gejala[]" value="G11"> G11: Asap hitam pekat</label>
+                    <label><input type="checkbox" name="gejala[]" value="G16"> G16: Bensin boros</label>
+                </div>
+                <div>
+                    <label><input type="checkbox" name="gejala[]" value="G12"> G12: Suara ngelitik kasar</label>
+                    <label><input type="checkbox" name="gejala[]" value="G13"> G13: Rem berdecit</label>
+                    <label><input type="checkbox" name="gejala[]" value="G14"> G14: Rem narik satu sisi</label>
+                    <label><input type="checkbox" name="gejala[]" value="G15"> G15: Mesin cepat panas</label>
+                    <label><input type="checkbox" name="gejala[]" value="G17"> G17: Speedometer mati total</label>
+                    <label><input type="checkbox" name="gejala[]" value="G18"> G18: Sering mati saat idle</label>
+                </div>
+            </div>
+            <br>
+            <button type="submit" class="btn btn-primary">Konsultasi</button>
+            <button type="reset" class="btn btn-reset">Reset</button>
+        </form>
+    </div>
+</body>
+</html>
