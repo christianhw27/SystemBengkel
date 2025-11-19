@@ -8,7 +8,7 @@ Proyek ini merupakan hasil konversi/porting dari kode PHP Native menjadi **Pytho
 
 Berikut adalah tampilan antarmuka aplikasi:
 
-| Halaman Utama | Memilih Gejala | Hasil Diagnosa |
+| Halaman Utama | Contoh Hasil Diagnosa 1 | Contoh Hasil Diagnosa 2 |
 |:---:|:---:|:---:|
 | ![Home Page](pic/es1.png) | ![Selection](pic/es2.png) | ![Result](pic/es3.png) |
 
