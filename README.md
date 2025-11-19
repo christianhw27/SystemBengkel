@@ -1,8 +1,8 @@
 # 🏍️ Expert System: Diagnosa Kerusakan Sepeda Motor
 
-Sistem Pakar (Expert System) berbasis web untuk mendiagnosa kerusakan pada sepeda motor. Aplikasi ini menggunakan metode **Forward Chaining** sederhana untuk mencocokkan gejala yang dipilih pengguna dengan basis pengetahuan (Knowledge Base) yang ada untuk memberikan solusi perbaikan.
+Sistem Pakar (Expert System) berbasis web untuk mendiagnosa kerusakan pada sepeda motor. Aplikasi ini menggunakan metode **Forward Chaining** dalam sistem pakar berbasis aturan (rule-based expert system) untuk mencocokkan gejala dengan basis pengetahuan dan menghasilkan solusi perbaikan.
 
-Proyek ini merupakan hasil konversi/porting dari kode PHP Native menjadi **Python (Flask Framework)**.
+Aplikasi ini dibuat menggunakan **Python** dan **framework Flask**.
 
 ## 📸 Tangkapan Layar (Screenshots)
 
