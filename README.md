@@ -144,14 +144,4 @@ Kontribusi sangat terbuka\! Jika kamu ingin meningkatkan fitur atau memperbaiki 
 
 -----
 
-## 📝 Lisensi
 
-Proyek ini dilisensikan di bawah [MIT License](https://www.google.com/search?q=LICENSE).
-
------
-
-
-
-
-**Apakah kamu ingin saya bantu buatkan deskripsi spesifik untuk metode sistem pakar yang kamu gunakan (misal: Forward Chaining)?**
-```
