@@ -95,8 +95,8 @@ Pastikan kamu sudah menginstall:
 
 1. **Clone Repositori**
    ```bash
-   git clone [https://github.com/username/nama-repo-kamu.git](https://github.com/username/nama-repo-kamu.git)
-   cd nama-repo-kamu
+   git clone https://github.com/christianhw27/SystemBengkel.git
+   cd SystemBengkel
 
 
 2.  **Install Dependensi**
