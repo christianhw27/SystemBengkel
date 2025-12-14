@@ -1,6 +1,4 @@
-<div align="center">
 
-  <img src="https://via.placeholder.com/150" alt="Logo Project" width="100" height="100">
 
   <h1>Sistem Pakar Diagnosa Kerusakan Sepeda Motor</h1>
   
