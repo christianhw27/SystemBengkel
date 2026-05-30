@@ -36,7 +36,7 @@
 Sistem ini bekerja dengan meniru kemampuan pengambilan keputusan seorang pakar (mekanik ahli). Pengguna cukup memilih gejala-gejala yang dialami motor, dan sistem akan memberikan hasil diagnosa beserta solusi perbaikannya.
 
 ### 🧠 Metode yang Digunakan
-Sistem ini menggunakan metode **[Sebutkan Metode: misal Forward Chaining / Certainty Factor / Dempster Shafer]** untuk menelusuri fakta-fakta (gejala) menuju kesimpulan (kerusakan).
+Sistem ini menggunakan metode **Forward Chaining** untuk menelusuri fakta-fakta (gejala) menuju kesimpulan (kerusakan).
 
 ---
 
